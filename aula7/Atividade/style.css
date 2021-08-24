@@ -1,0 +1,32 @@
+body {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: blue;
+    font: size 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.job-title {
+    background-color: blue;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+
+#high {
+    color: blue;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ul {
+    background-color:gray;
+    padding: 10px;
+    color: bisque;
+}

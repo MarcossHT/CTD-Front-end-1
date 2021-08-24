@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: chartreuse;
+}
+
+.título-principal {
+    color: red;
+    font-size: 120px;
+}
+
+#subtítulo {
+    color: aliceblue;
+    font-size: 80px;
+}
+
+.card a, .card h1, .card p {
+    font-size: 40px;
+    color: blue;
+}
