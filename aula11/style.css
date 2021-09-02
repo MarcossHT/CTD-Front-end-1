@@ -1,0 +1,42 @@
+.box {
+    width: 250px;
+    height: 250px;
+}
+
+.box-first {
+    background-color: pink;
+    position: absolute;
+    right: 0px;
+}
+
+.box-second {
+    background-color: lightcoral;
+    position: absolute;
+    left: 0px;
+}
+
+.box-third {
+    background-color: bisque;
+    position: fixed;
+    bottom: 0;
+    left: calc(50% - 250px/ 2);
+}
+
+.inside-box {
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    position: relative;
+    left: calc(50% - 150px/ 2);
+    top: 35px;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+    padding-top: 55px;
+}
+
+body {
+    background-color: black;
+}
