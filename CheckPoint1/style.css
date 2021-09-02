@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');/*'Roboto'*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');/*'Montserrat'*/
+
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    background-color: darkcyan;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1 {
+    padding-bottom: 30px;
+}
+
+.lista {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: x-large;
+    color: rgb(253, 4, 53);
+    padding-top: 30px;
+}
+
+body {
+    background-image: url('https://turismodeminas.com.br/wp-content/uploads/2020/10/Conceicao-do-Ibitipoca-credito-Marden-Couto-3-scaled.jpg');
+}
+.text {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: x-large;
+    color: rgb(253, 4, 53);
+    display: inline-block;
+    background-color: rgba(0,0,0,.6);
+}
+
+.video {
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    left: calc(50% - 1280px/ 2);
+}
+
+.icon-modify {
+   font-size: 25px;
+}
+
+.rodape {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    color: rgb(253, 4, 53);
+}
