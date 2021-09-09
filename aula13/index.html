@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+            <img src=https://i1.wp.com/multarte.com.br/wp-content/uploads/2020/10/logo-correios-transparente.png?resize=696%2C696&ssl=1 alt="">
+            <h1>Formulário de cadastro</h1>
+            <h2>Dados Pessoais</h2>
+        <div>
+            
+            <label for="name">Insira seu nome completo</label>
+            <input type="text" id="name">
+        </div>
+        
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" nome="email" id="email">
+        </div>
+
+        <div>
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" nome="nascimento" id="date">
+        </div>
+
+        <div>
+            <label for="password">Senha</label>
+            <input type="password" nome="senha" id="password">
+        </div>
+
+            <h2>Localização</h2>
+        
+        <div>
+            <label for="city">Cidade</label>
+            <select  nome="city">
+                <option value="">São Paulo</option>
+                <option value="">Rio de Janeiro</option>
+                <option value="">Salvador</option>
+                <option value="">Belo Horizonte</option>
+            </select>
+            <textarea name="" id="" cols="30" rows="10">Detalhes da entrega</textarea>
+        </div>
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    height: 500px;
+}
+
+input, textarea, select{
+    display: block;
+}
+
+img{
+    width: 250px;
+}
+
+form {
+    background-color: antiquewhite;
+    width: 350px;
+    position: relative;
+    left: calc(50% - 350px/ 2);
+    height: 900px;
+}
