@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"); /*'Roboto'*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap"); /*'Montserrat'*/
+
+body {
+  background-image: url("https://a-static.besthdwallpaper.com/colorido-dos-doces-papel-de-parede-3554x1999-3302_53.jpg");
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 15px;
+  background-color: darkcyan;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.firstCall {
+  padding-bottom: 30px;
+}
+
+.sencondCall {
+  font-family: "Roboto";
+}
+
+.cardPrincipal {
+  font-family: "Roboto";
+  width: 450px;
+  position: relative;
+  left: calc(50% - 450px / 2);
+  height: 1050px;
+  background-color: antiquewhite;
+}
