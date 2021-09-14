@@ -1,0 +1,70 @@
+body {
+  background-color: bisque;
+}
+
+button {
+  border-radius: 15px;
+  padding: 12px 24px;
+  background-color: rebeccapurple;
+  color: aliceblue;
+  border: 0;
+  transition-duration: 1s;
+}
+
+button:hover {
+  background-color: gold;
+  border-radius: 24px;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:focus {
+  background-color: gray;
+  transition-duration: 0.6s;
+}
+
+input:disabled {
+  border-radius: 24px;
+}
+
+input:enabled {
+  background-color: aqua;
+}
+
+input:checked {
+  transform: scale(2);
+}
+
+ul,
+li {
+  margin: 12px 0;
+}
+
+ul,
+li:nth-child(2n) {
+  color: red;
+}
+
+p::first-letter {
+  color: blue;
+}
+
+p::before {
+  content: "Before:";
+  color: red;
+}
+
+p::after {
+  content: "After";
+  color: green;
+}
