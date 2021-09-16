@@ -1,0 +1,71 @@
+@keyframes shake {
+  0% {
+    transform: translate(-200px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(200px);
+  }
+
+  100% {
+    transform: translate(-200px);
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(200deg);
+  }
+
+  50% {
+    transform: rotate(-200deg);
+  }
+
+  100% {
+    transform: rotate(200deg);
+  }
+}
+
+button {
+  color: brown;
+  background-color: beige;
+  border: none;
+  padding: 12px 42px;
+  transition-duration: 5s;
+  /*transition-timing-function: ease-in-out;*/
+  /*animation-name: shake;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;*/
+}
+
+button:hover {
+  background-color: gold;
+  /*padding: 60px;
+  /*transform: rotate(200deg);*/
+  /*transform: scale(2);*/
+  /*transform: skew(20deg);*/
+}
+
+.bola {
+  padding-left: 200px;
+}
+
+.bola {
+  animation-name: shake;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.icone {
+  padding-top: 150px;
+  padding-left: 100px;
+}
+
+.twitter {
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
