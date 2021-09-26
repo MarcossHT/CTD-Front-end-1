@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"); /*'Roboto'*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap"); /*'Montserrat'*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 430px 1fr;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+body header {
+  background-color: cadetblue;
+  grid-area: header;
+  height: 110px;
+  text-align: center;
+}
+
+body aside {
+  background-color: rgb(1, 30, 49);
+  grid-area: aside;
+  height: 1500px;
+}
+
+body main {
+  background-color: rgb(192, 248, 244);
+  grid-area: main;
+  height: 1500px;
+}
+
+body footer {
+  background-color: cadetblue;
+  grid-area: footer;
+  height: 80px;
+}
+
+img {
+  padding-top: 45px;
+  padding-left: 200px;
+  padding-bottom: 10px;
+}
+
+header img {
+  color: aliceblue;
+  width: 460px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-bottom: 50px;
+}
+
+main h1,
+p {
+  padding-left: 200px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 25px;
+  padding-right: 40px;
+}
+
+aside form {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+aside form fieldset {
+  padding: 10px;
+}
+
+form div {
+  padding: 5px;
+}
+
+form img {
+  width: 350px;
+  align-items: center;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+form input:hover {
+  transform: scale(1.05);
+  transition-duration: 5s;
+  transition: ease-in-out;
+}
+
+.firstForm input:focus {
+  background-color: aquamarine;
+  transition-duration: 0.6s;
+  height: 25px;
+}
+
+form select:focus {
+  background-color: aquamarine;
+  transition-duration: 0.6s;
+}
+
+form textarea:focus {
+  background-color: aquamarine;
+  transition-duration: 0.6s;
+}
+
+form button {
+  height: 30px;
+  width: 150px;
+  color: green;
+  background-color: aquamarine;
+}
+
+form button:hover {
+  background-color: gold;
+  border-radius: 12px;
+  transition-duration: 0.6s;
+}
+
+footer h4 {
+  color: aliceblue;
+  padding: 10px;
+}
