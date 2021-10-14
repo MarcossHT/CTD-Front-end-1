@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  /*background-image: url("../media/imgs/fundoplay.jpg");*/
+}
+
+.offcanvas-body {
+  font-family: "Poppins", sans-serif;
+  .nav-item:hover {
+    background-color: aqua;
+  }
+}
+
+.form {
+  padding-top: 45px;
+  padding-left: 40vh;
+  align-items: center;
+  width: 100vh;
+
+  h3 {
+    color: azure;
+    padding-top: 15px;
+  }
+
+  button {
+    background-color: black;
+    border-color: azure;
+  }
+
+  button:hover {
+    background-color: blue;
+  }
+}

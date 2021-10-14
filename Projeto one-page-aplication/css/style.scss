@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.offcanvas-body {
+  font-family: "Poppins", sans-serif;
+  .nav-item:hover {
+    background-color: aqua;
+  }
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  justify-items: flex-end;
+
+  p {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 23px;
+    padding: 10px;
+    padding-top: 100px;
+    font-weight: 700;
+    display: flex;
+    margin: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.section-one {
+  background-image: url("../media/imgs/1026233.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-two {
+  background-image: url("../media/imgs/days-gone-uhdpaper.com-4K-15.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-three {
+  background-image: url("../media/imgs/days-gone-uhdpaper.com-4K-2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
